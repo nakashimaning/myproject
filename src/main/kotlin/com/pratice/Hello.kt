@@ -9,6 +9,9 @@ fun main(args: Array<String>) {
 //    val(value)代表當我定義完這個物件之後就不能再改變他的值
     val h = Human() //建構一個Human物件
     h.hello()
+
+    val age: Int = 19;
+
 }
 
 class Human {   //直接設計類別,在同個package下,名稱不可以有跟java檔裡重複,否則會衝突
